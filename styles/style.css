@@ -129,3 +129,103 @@ main {
 .middle-black img {
     padding: 170px;
 }
+
+footer {
+    width: 1440px;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #05010B;
+    height: 690px;
+}
+
+.left-part {
+    color: white;
+    width: 45%;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contact {
+    font-size: 128px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.mail {
+    width: 580px;
+    height: 110px;
+    border-radius: 7px;
+    background-color: #D9D9D9;
+}
+
+.message {
+    width: 580px;
+    height: 250px;
+    border-radius: 7px;
+    background-color: #D9D9D9;
+}
+
+.submit {
+    width: 285px;
+    height: 110px;
+    background-color: #967ECB;
+    margin-left: 293px;
+    border-radius: 7px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.right-part {
+    color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.fotter-bottom {
+    background-color: #654C8C;
+    color: black;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+    padding: 110px;
+    margin-bottom: 20px;
+}
+
+.bottom-line {
+    display: flex;
+    gap: 170px;
+}
+
+.last-text {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    width: 1000px
+}
+
+.space-place {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.space-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
